@@ -69,33 +69,27 @@ const TaskFlow = () => {
         <h3 className="text-center mt-48 mb-20 text-6xl text-amber-900">REVIEWS</h3>
         <div class="max-w-4xl bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden m-auto mb-10">
           <div class="p-4">
-            <h5 class="text-xl font-bold mb-2 mt-1">Card Title</h5>
+            <h5 class="text-xl font-bold mb-2 mt-1 text-amber-900">John Doe</h5>
             <p class="text-gray-700 mb-4">
-              This is a simple card built with Tailwind CSS. You can use it to
-              display content in a clean way. This is a simple card built with
-              Tailwind CSS. You can use it to display content in a clean way.
+              Organization is important to me, without it my life is a mess. Taskflow helped me witht that.
             </p>
           </div>
         </div>
 
         <div class="max-w-4xl bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden m-auto mb-10">
           <div class="p-4">
-            <h5 class="text-xl font-bold mb-2 mt-1">Card Title</h5>
+            <h5 class="text-xl font-bold mb-2 mt-1 text-amber-900">Jack Doe</h5>
             <p class="text-gray-700 mb-4">
-              This is a simple card built with Tailwind CSS. You can use it to
-              display content in a clean way. This is a simple card built with
-              Tailwind CSS. You can use it to display content in a clean way.
+              I've never encountered a task organization application with a good price such as TaskFlow in all my years of living.
             </p>
           </div>
         </div>
 
         <div class="max-w-4xl bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden m-auto mb-10">
           <div class="p-4">
-            <h5 class="text-xl font-bold mb-2 mt-1">Card Title</h5>
+            <h5 class="text-xl font-bold mb-2 mt-1 text-amber-900">Jane Doe</h5>
             <p class="text-gray-700 mb-4">
-              This is a simple card built with Tailwind CSS. You can use it to
-              display content in a clean way. This is a simple card built with
-              Tailwind CSS. You can use it to display content in a clean way.
+              TaskFlow was a game changer for me. I am now more organized than ever thanks to it.
             </p>
           </div>
         </div>
