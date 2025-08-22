@@ -36,7 +36,8 @@ body {
   flex-direction: row;
   align-content: center;
   justify-content: center;
-  margin: 12% 2% 8% 2%;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 .cards a {
@@ -47,7 +48,17 @@ body {
 }
 
 .card {
-  margin: 12% 2% 8% 2%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.payment-options {
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 
 

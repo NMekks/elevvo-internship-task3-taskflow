@@ -9,68 +9,72 @@ const TaskFlow = () => {
         <button className="btn">Let's Start</button>
       </div>
 
-      <div className="cards">
-        <div class="card max-w-sm bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
-          <div class="p-4 justify-items-center">
-            <h5 class="text-xl font-bold mb-2">Card Title</h5>
-            <p class="text-gray-700 mb-4">
-              This is a simple card built with Tailwind CSS. You can use it to
-              display content in a clean way. This is a simple card built with
-              Tailwind CSS. You can use it to display content in a clean way.
-            </p>
-            <a
-              href="#"
-              class="inline-block px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition "
-            >
-              Learn More
-            </a>
+      <div className="cards-section">
+        <h3 className="text-center mt-48 mb-48 text-6xl">FEATURES</h3>
+        <div className="cards">
+          <div class="card max-w-sm bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
+            <div class="p-4 justify-items-center">
+              <h5 class="text-xl font-bold mb-2">Card Title</h5>
+              <p class="text-gray-700 mb-4">
+                This is a simple card built with Tailwind CSS. You can use it to
+                display content in a clean way. This is a simple card built with
+                Tailwind CSS. You can use it to display content in a clean way.
+              </p>
+              <a
+                href="#"
+                class="inline-block px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition "
+              >
+                Learn More
+              </a>
+            </div>
           </div>
-        </div>
 
-        <div class="card max-w-sm bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
-          <div class="p-4 justify-items-center">
-            <h5 class="text-xl font-bold mb-2">Card Title</h5>
-            <p class="text-gray-700 mb-4">
-              This is a simple card built with Tailwind CSS. You can use it to
-              display content in a clean way. This is a simple card built with
-              Tailwind CSS. You can use it to display content in a clean way.
-            </p>
-            <a
-              href="#"
-              class="inline-block px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition"
-            >
-              Learn More
-            </a>
+          <div class="card max-w-sm bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
+            <div class="p-4 justify-items-center">
+              <h5 class="text-xl font-bold mb-2">Card Title</h5>
+              <p class="text-gray-700 mb-4">
+                This is a simple card built with Tailwind CSS. You can use it to
+                display content in a clean way. This is a simple card built with
+                Tailwind CSS. You can use it to display content in a clean way.
+              </p>
+              <a
+                href="#"
+                class="inline-block px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition"
+              >
+                Learn More
+              </a>
+            </div>
           </div>
-        </div>
 
-        <div class="card max-w-sm bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
-          <div class="p-4 justify-items-center">
-            <h5 class="text-xl font-bold mb-2">Card Title</h5>
-            <p class="text-gray-700 mb-4">
-              This is a simple card built with Tailwind CSS. You can use it to
-              display content in a clean way. This is a simple card built with
-              Tailwind CSS. You can use it to display content in a clean way.
-            </p>
-            <a
-              href="#"
-              class="inline-block px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition"
-            >
-              Learn More
-            </a>
+          <div class="card max-w-sm bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
+            <div class="p-4 justify-items-center">
+              <h5 class="text-xl font-bold mb-2">Card Title</h5>
+              <p class="text-gray-700 mb-4">
+                This is a simple card built with Tailwind CSS. You can use it to
+                display content in a clean way. This is a simple card built with
+                Tailwind CSS. You can use it to display content in a clean way.
+              </p>
+              <a
+                href="#"
+                class="inline-block px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition"
+              >
+                Learn More
+              </a>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="quotes">
+      <div className="reviews">
+        <h3 className="text-center mt-48 mb-20 text-6xl">REVIEWS</h3>
         <div class="max-w-4xl bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden m-auto mb-10">
-          <div class="p-6">
+          <div class="p-4">
             <img
-                    src="%_"
-                    alt="Avatar"
-                    style={{ width: 80 }}
-                />
-            <h5 class="text-xl font-bold mb-2">Card Title</h5>
+              src="/luffyLogoImage.jpg"
+              alt="Avatar"
+              style={{ width: "80px", borderRadius: "50px" }}
+            />
+            <h5 class="text-xl font-bold mb-2 mt-1">Card Title</h5>
             <p class="text-gray-700 mb-4">
               This is a simple card built with Tailwind CSS. You can use it to
               display content in a clean way. This is a simple card built with
@@ -80,9 +84,13 @@ const TaskFlow = () => {
         </div>
 
         <div class="max-w-4xl bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden m-auto mb-10">
-          <div class="p-6">
-            
-            <h5 class="text-xl font-bold mb-2">Card Title</h5>
+          <div class="p-4">
+            <img
+              src="/luffyLogoImage.jpg"
+              alt="Avatar"
+              style={{ width: "80px", borderRadius: "50px" }}
+            />
+            <h5 class="text-xl font-bold mb-2 mt-1">Card Title</h5>
             <p class="text-gray-700 mb-4">
               This is a simple card built with Tailwind CSS. You can use it to
               display content in a clean way. This is a simple card built with
@@ -92,9 +100,13 @@ const TaskFlow = () => {
         </div>
 
         <div class="max-w-4xl bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden m-auto mb-10">
-          <div class="p-6">
-            
-            <h5 class="text-xl font-bold mb-2">Card Title</h5>
+          <div class="p-4">
+            <img
+              src="/luffyLogoImage.jpg"
+              alt="Avatar"
+              style={{ width: "80px", borderRadius: "50px" }}
+            />
+            <h5 class="text-xl font-bold mb-2 mt-1">Card Title</h5>
             <p class="text-gray-700 mb-4">
               This is a simple card built with Tailwind CSS. You can use it to
               display content in a clean way. This is a simple card built with
@@ -102,10 +114,61 @@ const TaskFlow = () => {
             </p>
           </div>
         </div>
-        
       </div>
 
-      
+      <div className="payment-section">
+        <h3 className="text-center mt-48 mb-20 text-6xl">PAYMENT OPTIONS</h3>
+        <div className="payment-options mb-20">
+          <div class="card max-w-sm h-96 bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
+            <div class="p-4 justify-items-center">
+              <h5 class="text-xl font-bold mb-2">Card Title</h5>
+              <p class="text-gray-700 mb-4">
+                This is a simple card built with Tailwind CSS. You can use it to
+                display content in a clean way. This is a simple card built with
+                Tailwind CSS. You can use it to display content in a clean way.
+              </p>
+              <a
+                href="#"
+                class="inline-block px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+          <div class="card max-w-sm h-96 bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
+            <div class="p-4 justify-items-center">
+              <h5 class="text-xl font-bold mb-2">Card Title</h5>
+              <p class="text-gray-700 mb-4">
+                This is a simple card built with Tailwind CSS. You can use it to
+                display content in a clean way. This is a simple card built with
+                Tailwind CSS. You can use it to display content in a clean way.
+              </p>
+              <a
+                href="#"
+                class="inline-block px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+          <div class="card max-w-sm h-96 bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
+            <div class="p-4 justify-items-center">
+              <h5 class="text-xl font-bold mb-2">Card Title</h5>
+              <p class="text-gray-700 mb-4">
+                This is a simple card built with Tailwind CSS. You can use it to
+                display content in a clean way. This is a simple card built with
+                Tailwind CSS. You can use it to display content in a clean way.
+              </p>
+              <a
+                href="#"
+                class="inline-block px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
