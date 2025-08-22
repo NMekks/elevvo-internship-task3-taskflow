@@ -1,44 +1,47 @@
 import React from "react";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import ScrollReveal from "scrollreveal";
 
 const TaskFlow = () => {
+  const myRef = useRef(null);
 
-    useEffect(() => {
-        ScrollReveal().reveal('.page-header', {
-            origin: 'top',
-            distance: '100px',
-            duration: 2300,
-            reset: true
-        });
-    },[]);
+  const executeScroll = () => myRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
-    useEffect(() => {
-        ScrollReveal().reveal('.cards', {
-            origin: 'bottom',
-            distance: '100px',
-            duration: 2000,
-            reset: true
-        });
-    },[]);
+  useEffect(() => {
+    ScrollReveal().reveal(".page-header", {
+      origin: "top",
+      distance: "100px",
+      duration: 2300,
+      reset: true,
+    });
+  }, []);
 
-        useEffect(() => {
-        ScrollReveal().reveal('.reviews', {
-            origin: 'bottom',
-            distance: '100px',
-            duration: 2000,
-            reset: true
-        });
-    },[]);
+  useEffect(() => {
+    ScrollReveal().reveal(".cards", {
+      origin: "bottom",
+      distance: "100px",
+      duration: 2000,
+      reset: true,
+    });
+  }, []);
 
-        useEffect(() => {
-        ScrollReveal().reveal('.payment-options', {
-            origin: 'bottom',
-            distance: '100px',
-            duration: 2000,
-            reset: true
-        });
-    },[]);
+  useEffect(() => {
+    ScrollReveal().reveal(".reviews", {
+      origin: "bottom",
+      distance: "100px",
+      duration: 2000,
+      reset: true,
+    });
+  }, []);
+
+  useEffect(() => {
+    ScrollReveal().reveal(".payment-options", {
+      origin: "bottom",
+      distance: "100px",
+      duration: 2000,
+      reset: true,
+    });
+  }, []);
 
   return (
     <div className="container-fluid">
@@ -47,13 +50,16 @@ const TaskFlow = () => {
         <p className="text-slate-600 text-">
           Oragnization. Flow. Peace of mind.
         </p>
-        <button className="btn py-3 px-16 rounded-full border-0 bg-yellow-500 text-white text-lg">
+        <button
+          className="btn py-3 px-16 rounded-full border-0 bg-yellow-500 text-white text-lg"
+          onClick={executeScroll}
+        >
           Let's Start
         </button>
       </div>
 
-      <div className="cards-section">
-        <h3 className="text-center mt-48 mb-48 text-6xl text-amber-900">
+      <div className="cards-section" ref={myRef}>
+        <h3 className="text-center pt-16 mt-48 mb-48 text-6xl text-amber-900">
           Features
         </h3>
         <div className="cards">
@@ -117,35 +123,41 @@ const TaskFlow = () => {
           Reviews
         </h3>
         <div className="reviews">
-        <div class="max-w-4xl bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden m-auto mb-10">
-          <div class="p-4">
-            <h5 class="text-xl font-bold mb-2 mt-1 text-amber-900">John Doe</h5>
-            <p class="text-gray-700 mb-4">
-              Organization is important to me, without it my life is a mess.
-              Taskflow helped me witht that.
-            </p>
+          <div class="max-w-4xl bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden m-auto mb-10">
+            <div class="p-4">
+              <h5 class="text-xl font-bold mb-2 mt-1 text-amber-900">
+                John Doe
+              </h5>
+              <p class="text-gray-700 mb-4">
+                Organization is important to me, without it my life is a mess.
+                Taskflow helped me witht that.
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div class="max-w-4xl bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden m-auto mb-10">
-          <div class="p-4">
-            <h5 class="text-xl font-bold mb-2 mt-1 text-amber-900">Jack Doe</h5>
-            <p class="text-gray-700 mb-4">
-              I've never encountered a task organization application with a good
-              price such as TaskFlow in all my years of living.
-            </p>
+          <div class="max-w-4xl bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden m-auto mb-10">
+            <div class="p-4">
+              <h5 class="text-xl font-bold mb-2 mt-1 text-amber-900">
+                Jack Doe
+              </h5>
+              <p class="text-gray-700 mb-4">
+                I've never encountered a task organization application with a
+                good price such as TaskFlow in all my years of living.
+              </p>
+            </div>
           </div>
-        </div>
 
-        <div class="max-w-4xl bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden m-auto mb-10">
-          <div class="p-4">
-            <h5 class="text-xl font-bold mb-2 mt-1 text-amber-900">Jane Doe</h5>
-            <p class="text-gray-700 mb-4">
-              TaskFlow was a game changer for me. I am now more organized than
-              ever thanks to it.
-            </p>
+          <div class="max-w-4xl bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden m-auto mb-10">
+            <div class="p-4">
+              <h5 class="text-xl font-bold mb-2 mt-1 text-amber-900">
+                Jane Doe
+              </h5>
+              <p class="text-gray-700 mb-4">
+                TaskFlow was a game changer for me. I am now more organized than
+                ever thanks to it.
+              </p>
+            </div>
           </div>
-        </div>
         </div>
       </div>
 
