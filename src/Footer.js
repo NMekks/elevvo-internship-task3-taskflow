@@ -22,14 +22,7 @@ const Footer = () => {
                 <i className="fa-brands fa-x-twitter" />
               </a>
             </li>
-            <li>
-              <a href="#">
-                <i className="fa-brands fa-bluesky" />
-              </a>
-            </li>
-            <li>
-              <a href="#">Cara</a>
-            </li>
+            
           </ul>
         </div>
         <br />

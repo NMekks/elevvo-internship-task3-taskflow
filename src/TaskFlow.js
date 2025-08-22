@@ -1,6 +1,45 @@
 import React from "react";
+import { useEffect } from "react";
+import ScrollReveal from "scrollreveal";
 
 const TaskFlow = () => {
+
+    useEffect(() => {
+        ScrollReveal().reveal('.page-header', {
+            origin: 'top',
+            distance: '100px',
+            duration: 2300,
+            reset: true
+        });
+    },[]);
+
+    useEffect(() => {
+        ScrollReveal().reveal('.cards', {
+            origin: 'bottom',
+            distance: '100px',
+            duration: 2000,
+            reset: true
+        });
+    },[]);
+
+        useEffect(() => {
+        ScrollReveal().reveal('.reviews', {
+            origin: 'bottom',
+            distance: '100px',
+            duration: 2000,
+            reset: true
+        });
+    },[]);
+
+        useEffect(() => {
+        ScrollReveal().reveal('.payment-options', {
+            origin: 'bottom',
+            distance: '100px',
+            duration: 2000,
+            reset: true
+        });
+    },[]);
+
   return (
     <div className="container-fluid">
       <div className="page-header">
@@ -73,10 +112,11 @@ const TaskFlow = () => {
         </div>
       </div>
 
-      <div className="reviews">
+      <div className="reviews-section">
         <h3 className="text-center mt-48 mb-20 text-6xl text-amber-900">
           Reviews
         </h3>
+        <div className="reviews">
         <div class="max-w-4xl bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden m-auto mb-10">
           <div class="p-4">
             <h5 class="text-xl font-bold mb-2 mt-1 text-amber-900">John Doe</h5>
@@ -105,6 +145,7 @@ const TaskFlow = () => {
               ever thanks to it.
             </p>
           </div>
+        </div>
         </div>
       </div>
 
