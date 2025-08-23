@@ -23,11 +23,6 @@ h1, h3 {
 
 footer {
   background: #ecbc4c;
-  /*color: rgb(247, 247, 247); */
-  /* display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: center; */
 }
 
 footer a {
@@ -85,10 +80,3 @@ footer p {
   font-size: 16px;
   text-align: center;
 }
-
-
-/*
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
