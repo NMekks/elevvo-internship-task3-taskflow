@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="flex justify-center text-center align-content-center text-white overflow-hidden">
       <div id="rightfooter">
-        <h3>Follow me on</h3>
+        <h3 className="md:text-3xl lg:text-2xl ">Follow me on</h3>
         <div id="social-media-footer">
           <ul>
             <li>

@@ -45,13 +45,13 @@ const TaskFlow = () => {
 
   return (
     <div className="container-fluid">
-      <div className="page-header">
-        <h1 className="text-amber-900">TaskFlow</h1>
-        <p className="text-slate-600 text-">
+      <div className="page-header justify-center text-center">
+        <h1 className="text-8xl sm:text-4xl md:text-[180px] lg:text-9xl mt-48 sm:mt-24 md:mt-[60%] lg:mt-48 text-amber-900">TaskFlow</h1>
+        <p className="text-slate-600 md:text-3xl">
           Oragnization. Flow. Peace of mind.
         </p>
         <button
-          className="btn py-3 px-16 rounded-full border-0 bg-yellow-500 text-white text-lg"
+          className="btn py-3 px-16 md:text-4xl lg:text-base rounded-full border-0 bg-yellow-500 text-white text-lg"
           onClick={executeScroll}
         >
           Let's Start
@@ -59,11 +59,11 @@ const TaskFlow = () => {
       </div>
 
       <div className="cards-section" ref={myRef}>
-        <h3 className="text-center pt-16 mt-48 mb-48 text-6xl text-amber-900">
+        <h3 className="text-center pt-16 mt-48 md:mt-96 sm:mb-12 md:mb-24 lg:mb-36 text-5xl sm:text-3xl md:text-5xl lg:text-5xl text-amber-900">
           Features
         </h3>
-        <div className="cards">
-          <div class="card max-w-sm bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
+        <div className="cards flex flex-col lg:flex-row gap-6 my-12 px-5 justify-center items-center">
+          <div class="card max-w-sm bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden flex-shrink-0">
             <div class="p-4 justify-items-center">
               <div className="card-icon text-5xl mt-4">
                 <i class="fa-regular fa-calendar-days"></i>
@@ -119,10 +119,10 @@ const TaskFlow = () => {
       </div>
 
       <div className="reviews-section">
-        <h3 className="text-center mt-48 mb-20 text-6xl text-amber-900">
+        <h3 className="text-center mt-24 sm:mt-12 md:mt-24 lg:mt-60 mb-12 sm:mb-12 md:mb-24 lg:mb-20 text-5xl sm:text-3xl md:text-5xl lg:text-5xl text-amber-900">
           Reviews
         </h3>
-        <div className="reviews">
+        <div className="reviews px-5 md:px-20">
           <div class="max-w-4xl bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden m-auto mb-10">
             <div class="p-4">
               <h5 class="text-xl font-bold mb-2 mt-1 text-amber-900">
@@ -162,14 +162,14 @@ const TaskFlow = () => {
       </div>
 
       <div className="payment-section">
-        <h3 className="text-center mt-48 mb-20 text-6xl text-amber-900">
+        <h3 className=" text-5xl sm:text-3xl md:text-5xl lg:text-5xl text-center mt-24 sm:mt-12 md:mt-24 lg:mt-48 mb-12 sm:mb-12 md:mb-24 lg:mb-20 text-amber-900">
           Pricing Options
         </h3>
-        <div className="payment-options mb-40">
+        <div className="payment-options flex flex-col md:flex-row gap-6 justify-center items-center px-4 md:px-10 mb-40">
           <div class="card max-w-sm h-96 bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
-            <div class=" p-4 justify-items-center mx-6">
+            <div class=" p-4 justify-items-center mx-3">
               <h5 class="text-3xl font-bold mb-0 mt-3">FREE</h5>
-              <h5 class="text-5xl font-bold mt-3 mb-5">$0.00/mo</h5>
+              <h5 class="text-5xl md:text-4xl lg:text-5xl font-bold mt-3 mb-5">$0.00/mo</h5>
               <p class="text-gray-700 mb-4  mt-10 justify-content-center text-center">
                 Basic Features
               </p>
@@ -190,7 +190,7 @@ const TaskFlow = () => {
           <div class="card max-w-sm h-96 bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
             <div class="p-4 justify-items-center">
               <h5 class="text-3xl font-bold mb-0 mt-3">PRO</h5>
-              <h5 class="text-5xl font-bold mt-3 mb-5">$14.99/mo</h5>
+              <h5 class="text-5xl md:text-4xl lg:text-5xl font-bold mt-3 mb-5">$14.99/mo</h5>
               <p class="text-gray-700 mb-4 mt-10 justify-content-center text-center">
                 Customizable Features
               </p>
@@ -210,8 +210,8 @@ const TaskFlow = () => {
           </div>
           <div class="card max-w-sm h-96 bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
             <div class="p-4 justify-items-center">
-              <h5 class="text-3xl font-bold mb-0 mt-3">ENTERPRISE</h5>
-              <h5 class="text-5xl font-bold mt-3 mb-5">$49.99/mo</h5>
+              <h5 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-0 mt-4">ENTERPRISE</h5>
+              <h5 class="text-5xl md:text-4xl lg:text-5xl font-bold mt-3 mb-5">$49.99/mo</h5>
               <p class="text-gray-700 mb-4 mt-10 justify-content-center text-center">
                 Invite Team Members
               </p>
