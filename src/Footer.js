@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <footer className="flex justify-center text-center align-content-center text-white">
       <div id="rightfooter">
-        <h3 className="md:text-3xl lg:text-2xl ">Follow me on</h3>
+        <h3 className="md:text-3xl lg:text-2xl font-bold mt-8">Follow me on</h3>
         <div id="social-media-footer">
-          <ul>
+          <ul className="flex list-none text-center justify-center align-content-center align-items-center mb-0 me-8">
             <li>
               <a href="#">
                 <i className="fa-brands fa-instagram" />
@@ -26,7 +26,7 @@ const Footer = () => {
           </ul>
         </div>
         <br />
-        <p>© Nusaibah Mekkaoui, All Rights Reserved.</p>
+        <p className="m-auto pb-8">© Nusaibah Mekkaoui, All Rights Reserved.</p>
       </div>
     </footer>
   );
