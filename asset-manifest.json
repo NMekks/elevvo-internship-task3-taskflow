@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/elevvo-internship-task3-taskflow/static/css/main.5c78ab2b.css",
+    "main.js": "/elevvo-internship-task3-taskflow/static/js/main.dcbdf29d.js",
+    "index.html": "/elevvo-internship-task3-taskflow/index.html",
+    "main.5c78ab2b.css.map": "/elevvo-internship-task3-taskflow/static/css/main.5c78ab2b.css.map",
+    "main.dcbdf29d.js.map": "/elevvo-internship-task3-taskflow/static/js/main.dcbdf29d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c78ab2b.css",
+    "static/js/main.dcbdf29d.js"
+  ]
+}
