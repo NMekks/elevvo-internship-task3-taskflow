@@ -3,7 +3,7 @@
 A modern, responsive web application built with **React** and **Tailwind CSS**.  
 The app includes a landing page with a hero header, pricing plans, and reviews/testimonials.  
 It is fully responsive, optimized for both **desktop** and **mobile** views.
-Visit the project using the link (here)[]
+Visit the project using the link (here)[https://nmekks.github.io/elevvo-internship-task3-taskflow/]
 
 ---
 
@@ -80,5 +80,6 @@ Tailwind's directives are included in the main CSS file:
 
 /* Add any custom styles below */
 ```
+
 
 
