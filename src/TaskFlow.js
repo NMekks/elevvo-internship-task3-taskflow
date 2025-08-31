@@ -62,7 +62,7 @@ const TaskFlow = () => {
         <h3 className="text-center pt-16 mt-48 md:mt-96 sm:mb-12 md:mb-24 lg:mb-36 text-5xl sm:text-3xl md:text-5xl lg:text-5xl text-amber-900">
           Features
         </h3>
-        <div className="cards flex flex-col lg:flex-row gap-6 my-12 px-5 justify-center items-center">
+        <div className="flex flex-col lg:flex-row gap-6 my-12 px-5 justify-center items-center">
           <div class="card max-w-sm bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden flex-shrink-0">
             <div class="p-4 justify-items-center">
               <div className="card-icon text-5xl mt-4">
